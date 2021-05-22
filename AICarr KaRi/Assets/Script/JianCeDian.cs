@@ -6,6 +6,7 @@ public class JianCeDian : MonoBehaviour
 {
     public int index;
     // Use this for initialization
+    public Car car;
     void Start()
     {
         index = int.Parse(name);
@@ -15,8 +16,9 @@ public class JianCeDian : MonoBehaviour
     {
         if (c.gameObject.layer == 9)
         {
-            Car car = c.gameObject.GetComponent<Car>();
-            if (index == car.jianceNum - 1 && car.nextIndex == index)
+             car = c.gameObject.GetComponent<Car>();
+          
+            if (car != null && index == car.jianceNum - 1 && car.nextIndex == index)
             {
                 car.nextIndex = 0;
                 car.moveDis += car.jianceDis[index];
@@ -27,11 +29,12 @@ public class JianCeDian : MonoBehaviour
                     car.gameObject.SetActive(false);
                 }
             }
-            else if (index == car.nextIndex)
+            else if (car != null && index == car.nextIndex )
             {
                 car.moveDis += car.jianceDis[index];
                 car.nextIndex++;
             }
         }
     }
+
 }

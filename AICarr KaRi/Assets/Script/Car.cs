@@ -16,7 +16,7 @@ public class Car : Agent
     public Vector3 center;//坐标中心
 
     public GameObject tuoweiPrefab;
-   private GameObject tuoweil;
+    private GameObject tuoweil;
     private GameObject tuowei2;
 
     public Material mat;//车的材质球
@@ -57,7 +57,7 @@ public class Car : Agent
                 break;
             }
         }
-        
+
         weidengMat.shader = Shader.Find("Legacy Shaders/Self-Illumin/Diffuse");
         //重心位置等于坐标中心
         rb.centerOfMass = center;
@@ -126,7 +126,7 @@ public class Car : Agent
         }
         else
         {
-            TingZhiHuaXing();          
+            TingZhiHuaXing();
         }
 
     }
@@ -198,7 +198,7 @@ public class Car : Agent
             //wcArr[1].steerAngle = f * angle;
             //前轮旋转角度
             wcArr[0].steerAngle = maxAngle * f;
-            wcArr[1].steerAngle = maxAngle *f;
+            wcArr[1].steerAngle = maxAngle * f;
         }
     }
     public void Brake(float f)
