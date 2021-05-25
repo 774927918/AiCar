@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CarCtrl : MonoBehaviour
 {
@@ -18,14 +19,19 @@ public class CarCtrl : MonoBehaviour
     public GameObject tuoweiPrefab;
     public GameObject tuoweil;
     public GameObject tuowei2;
+    public Text txt;
+    public float curSpeed;//射线距离
     void Start()
     {
         rb.centerOfMass = center;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        curSpeed = rb.velocity.magnitude;
+        txt.text = "   スピード:" + Mathf.RoundToInt(curSpeed * 3.6f / 0.6f);
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
@@ -35,7 +41,12 @@ public class CarCtrl : MonoBehaviour
         //前轮旋转角度
         wcArr[0].steerAngle = maxAngle * x;
         wcArr[1].steerAngle = maxAngle * x;
-        CheckHuaXing();
+        //CheckHuaXing();
+        if (Time.time > 1.5f)
+        {
+            CheckHuaXing();
+        }
+       // Invoke("CheckHuaXing", 1.2f);
         for (int i = 0; i < 4; i++)
         {
             Vector3 pos;
@@ -65,10 +76,15 @@ public class CarCtrl : MonoBehaviour
         {
             if (tuoweil == null)
             {
+
+                //tuoweil = Instantiate(tuoweiPrefab, wcArr[2].transform.position, tuoweiPrefab.transform.rotation);
+                //tuowei2 = Instantiate(tuoweiPrefab, wcArr[3].transform.position, tuoweiPrefab.transform.rotation);
+                //tuoweil.transform.localPosition = new Vector3(0, -0.2f, 0);
+                //tuowei2.transform.localPosition = new Vector3(0, -0.2f, 0);
                 tuoweil = Instantiate(tuoweiPrefab);
                 tuowei2 = Instantiate(tuoweiPrefab);
-                tuoweil.transform.position = wcArr[2].transform.position + Vector3.down * 0.45f;
-                tuowei2.transform.position = wcArr[3].transform.position + Vector3.down * 0.45f;
+                tuoweil.transform.position = wcArr[2].transform.position + Vector3.down * 0.24f;
+                tuowei2.transform.position = wcArr[3].transform.position + Vector3.down * 0.24f;
                 tuoweil.transform.SetParent(wcArr[2].transform);
                 tuowei2.transform.SetParent(wcArr[3].transform);
             }

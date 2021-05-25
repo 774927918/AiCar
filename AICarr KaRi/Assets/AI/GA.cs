@@ -45,7 +45,8 @@ public class GA
         {
             totalFit += t.fitness;
         }
-        UnityEngine.Debug.Log("最高适应性:" + parents[parents.Count - 1].fitness + "   平均适应性:" + totalFit / parents.Count);
+       // UnityEngine.Debug.Log("最高适应性:" + parents[parents.Count - 1].fitness + "   平均适应性:" + totalFit / parents.Count);
+        UnityEngine.Debug.Log("最高適応度:" + parents[parents.Count - 1].fitness + "   平均適応度:" + totalFit / parents.Count);
         #endregion
 
         #region 负数适应性修改

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -26,7 +27,8 @@ public class TargetCtrl : MonoBehaviour
         {
             sf.target = c.transform;
             lc.target = c.transform;
-            txt.text = c.name + "   车速:" + Mathf.RoundToInt(c.curSpeed * 3.6f / 0.6f) + "   圈数:" + c.quanshu + "    得分:" + c.fit;
+            //txt.text = c.name + "   车速:" + Mathf.RoundToInt(c.curSpeed * 3.6f / 0.6f) + "   圈数:" + c.quanshu + "    得分:" + c.fit;
+           txt.text = c.name + "   スピード:" + Mathf.RoundToInt(c.curSpeed * 3.6f / 0.6f) + "   何周か走った:" + c.quanshu + "    得点:" + c.fit;
         }
         else
         {

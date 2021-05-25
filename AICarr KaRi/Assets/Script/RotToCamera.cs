@@ -17,15 +17,18 @@ public class RotToCamera : MonoBehaviour
         int index = int.Parse(txt.text.Replace("Car", ""));
         if (index == 0)
         {
-            txt.text += "\n第一个体";
+            //txt.text += "\n第一个体";
+            txt.text += "\n第一個体";
         }
         else if (index < ev.populationSize / 4)
         {
-            txt.text += "\n精英个体";
+            //txt.text += "\n精英个体";
+            txt.text += "\n優秀な個体";
         }
         else
         {
-            txt.text += "\n杂交个体";
+            // txt.text += "\n杂交个体";
+            txt.text += "\n杂交個体";
         }
         cm = Camera.main;
         txt.color = transform.parent.GetComponent<Car>().mat.color;

@@ -41,6 +41,8 @@ public class Car : Agent
     private float t;
 
     public int quanshu;
+    private int tuoweitime;
+
     void Start()
     {
 
@@ -108,7 +110,13 @@ public class Car : Agent
     {
         moveTime += Time.deltaTime;
 
-        CheckHuaXing();
+        //CheckHuaXing();
+        tuoweitime++;
+        if (tuoweitime >= 70)
+        {
+            CheckHuaXing();
+        }
+
         curSpeed = rb.velocity.magnitude;
         SetWc();
 
@@ -134,14 +142,19 @@ public class Car : Agent
     {
         if (tuoweil == null)
         {
-            tuoweil = Instantiate(tuoweiPrefab, wcArr[2].transform.position, tuoweiPrefab.transform.rotation);
-            tuowei2 = Instantiate(tuoweiPrefab, wcArr[3].transform.position, tuoweiPrefab.transform.rotation);
+            tuoweil = Instantiate(tuoweiPrefab);
+            tuowei2 = Instantiate(tuoweiPrefab);
+            tuoweil.transform.position = wcArr[2].transform.position + Vector3.down * 0.24f;
+            tuowei2.transform.position = wcArr[3].transform.position + Vector3.down * 0.24f;
+            //tuoweil = Instantiate(tuoweiPrefab, wcArr[2].transform.position + Vector3.down * 0.25f, tuoweiPrefab.transform.rotation);
+            //tuowei2 = Instantiate(tuoweiPrefab, wcArr[3].transform.position + Vector3.down * 0.25f, tuoweiPrefab.transform.rotation);
             tuoweil.transform.SetParent(wcArr[2].transform);
             tuowei2.transform.SetParent(wcArr[3].transform);
-            tuoweil.transform.localPosition = new Vector3(0, -0.40f, 0);
-            tuowei2.transform.localPosition = new Vector3(0, -0.40f, 0);
+            //tuoweil.transform.localPosition = new Vector3(0, -0.40f, 0);
+            //tuowei2.transform.localPosition = new Vector3(0, -0.40f, 0);
             tuoweil.GetComponent<TrailRenderer>().material.color = mat.color;
             tuowei2.GetComponent<TrailRenderer>().material.color = mat.color;
+
         }
     }
     public void TingZhiHuaXing()
@@ -315,6 +328,7 @@ public class Car : Agent
         moveDis = 0;
         fit = 0;
         ge.fitness = 0;
+        tuoweitime = 0;
         transform.position = Vector3.up * 0.9f;
         transform.rotation = Quaternion.identity;
     }
