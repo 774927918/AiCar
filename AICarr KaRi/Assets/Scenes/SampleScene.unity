@@ -1184,7 +1184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agentPrefab: {fileID: 7067305714251049005, guid: a64fd61bff12c474ba40e93873d5468e, type: 3}
   agentsParent: {fileID: 345665502}
-  populationSize: 100
+  populationSize: 8
   layerShape: 060000000800000003000000
   populationName: Car
   loadWeights: 1
