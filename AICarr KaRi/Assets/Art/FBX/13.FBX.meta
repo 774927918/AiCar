@@ -1,0 +1,915 @@
+fileFormatVersion: 2
+guid: 5f2b6f687b9568048829a67fc2d437e9
+timeCreated: 1514980274
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ApexTouch
+    100004: ApexTouch 1
+    100006: ApexTouch 2
+    100008: ApexTouch 3
+    100010: ApexTouch 4
+    100012: ApexTouch 5
+    100014: ApexTouch 6
+    100016: ApexTouchManager
+    100018: AR_A_01_Start_Beam
+    100020: AR_A_01_Start_Beam 1
+    100022: AR_A_01_Start_Beam_002
+    100024: AR_A_01_Start_Beam_002 1
+    100026: Bush_01
+    100028: Camera
+    100030: Camera (1)
+    100032: Camera (11)
+    100034: Camera (12)
+    100036: Camera (13)
+    100038: Camera (14)
+    100040: Camera (15)
+    100042: Camera (16)
+    100044: Camera (17)
+    100046: Camera (18)
+    100048: Camera (19)
+    100050: Camera (2)
+    100052: Camera (20)
+    100054: Camera (21)
+    100056: Camera (3)
+    100058: Camera (4)
+    100060: Camera (5)
+    100062: Camera (6)
+    100064: Camera (7)
+    100066: Camera (8)
+    100068: Checkpoint_00
+    100070: Checkpoint_01
+    100072: Checkpoint_02
+    100074: Checkpoint_03
+    100076: Checkpoint_04
+    100078: Checkpoint_05
+    100080: Checkpoint_06
+    100082: Checkpoint_07
+    100084: Checkpoint_08
+    100086: Checkpoint_09
+    100088: Checkpoint_10
+    100090: Checkpoint_11
+    100092: Checkpoint_12
+    100094: Checkpoint_13
+    100096: Checkpoint_14
+    100098: Checkpoint_15
+    100100: Checkpoint_16
+    100102: Checkpoint_17
+    100104: Checkpoint_18
+    100106: Checkpoint_19
+    100108: Checkpoint_20
+    100110: Checkpoint_21
+    100112: Checkpoint_22
+    100114: Checkpoint_23
+    100116: Checkpoint_24
+    100118: Checkpoint_25
+    100120: Checkpoint_26
+    100122: Checkpoint_27
+    100124: Checkpoint_28
+    100126: Checkpoint_29
+    100128: Checkpoint_30
+    100130: Checkpoint_31
+    100132: Checkpoint_32
+    100134: Checkpoint_33
+    100136: Checkpoint_34
+    100138: Checkpoint_35
+    100140: Checkpoint_36
+    100142: Checkpoint_37
+    100144: Checkpoint_38
+    100146: Checkpoint_39
+    100148: Checkpoint_40
+    100150: Checkpoints
+    100152: Collider
+    100154: Collider (1)
+    100156: Collider_Road
+    100158: Collider_Wall
+    100160: Colliders
+    100162: Forest
+    100164: Forest 1
+    100166: Forest_00
+    100168: Forest_00 1
+    100170: Forest_01
+    100172: Forest_01 1
+    100174: Forest_02
+    100176: Forest_02 1
+    100178: Forest_02_001
+    100180: Forest_02_001 1
+    100182: Forest_03
+    100184: Forest_03 1
+    100186: Forest_03_001
+    100188: Forest_03_001 1
+    100190: Forest_03_002
+    100192: Forest_03_002 1
+    100194: Forest_03_003
+    100196: Forest_03_003 1
+    100198: Forest_03_004
+    100200: Forest_03_004 1
+    100202: Forest_04
+    100204: Forest_04 1
+    100206: ForestContainer
+    100208: ForestContainer 1
+    100210: Mountain_01
+    100212: Piece_00_001
+    100214: Piece_00_001 1
+    100216: Piece_01_001
+    100218: Piece_01_001 1
+    100220: Piece_02_001
+    100222: Piece_02_001 1
+    100224: Piece_02_002
+    100226: Piece_02_002 1
+    100228: Piece_03
+    100230: Piece_03 1
+    100232: Piece_03_001
+    100234: Piece_03_001 1
+    100236: Piece_03_002
+    100238: Piece_03_002 1
+    100240: Piece_03_003
+    100242: Piece_03_003 1
+    100244: Piece_04_001
+    100246: Piece_04_001 1
+    100248: Piece_04_002
+    100250: Piece_04_002 1
+    100252: Piece_05_001
+    100254: Piece_05_001 1
+    100256: Piece_05_002
+    100258: Piece_05_002 1
+    100260: Piece_05_003
+    100262: Piece_05_003 1
+    100264: Piece_05_004
+    100266: Piece_05_004 1
+    100268: Piece_06_001
+    100270: Piece_06_001 1
+    100272: PieceContainer
+    100274: PieceContainer 1
+    100276: Rail_001
+    100278: Rail_001 1
+    100280: Rail_002
+    100282: Rail_002 1
+    100284: Rail_Light_001
+    100286: Rail_Light_001 1
+    100288: Rail_Light_002
+    100290: Rail_Light_002 1
+    100292: Rail_Light_003
+    100294: Rail_Light_003 1
+    100296: RailsContainer
+    100298: RailsContainer 1
+    100300: RestartZones
+    100302: Road_Barrier_000
+    100304: Road_Barrier_000 1
+    100306: Road_Barrier_001
+    100308: Road_Barrier_001 1
+    100310: RoadSign_30
+    100312: RoadSign_30 1
+    100314: RoadSign_30_End
+    100316: RoadSign_30_End 1
+    100318: RoadSign_30_Start
+    100320: RoadSign_30_Start 1
+    100322: RoadSign_50
+    100324: RoadSign_50 1
+    100326: RoadSign_Curve_Warning
+    100328: RoadSign_Curve_Warning 1
+    100330: RoadSign_Engine_Brake
+    100332: RoadSign_Engine_Brake 1
+    100334: RoadSign_RIght_Turn
+    100336: RoadSign_RIght_Turn 1
+    100338: RoadSign_RIght_Turn_001
+    100340: RoadSign_RIght_Turn_001 1
+    100342: RoadSign_RIght_Turn_002
+    100344: RoadSign_RIght_Turn_002 1
+    100346: RoadSign_RIght_Turn_003
+    100348: RoadSign_RIght_Turn_003 1
+    100350: RoadSign_RIght_Turn_004
+    100352: RoadSign_RIght_Turn_004 1
+    100354: RoadSign_RIght_Turn_005
+    100356: RoadSign_RIght_Turn_005 1
+    100358: RoadSign_Warning
+    100360: RoadSign_Warning 1
+    100362: RoadSignsContainer
+    100364: RoadSignsContainer 1
+    100366: Skydome
+    100368: Skydome 1
+    100370: SUN_LIGHTMAP
+    100372: TougeFinal
+    100374: TougeFinalParaboloid
+    100376: TrackCameras
+    100378: Trees
+    100380: Trees 1
+    100382: Trees_00
+    100384: Trees_00 1
+    100386: Trees_001
+    100388: Trees_001 1
+    100390: Trees_002
+    100392: Trees_002 1
+    100394: Trees_003
+    100396: Trees_003 1
+    100398: Trees_004
+    100400: Trees_004 1
+    100402: Trees_01
+    100404: Trees_01 1
+    100406: Trees_01_001
+    100408: Trees_01_001 1
+    100410: Trees_02
+    100412: Trees_02 1
+    100414: Trees_02_001
+    100416: Trees_02_001 1
+    100418: Trees_03
+    100420: Trees_03 1
+    100422: Trees_03_001
+    100424: Trees_03_001 1
+    100426: Trees_03_002
+    100428: Trees_03_002 1
+    100430: Trees_03_003
+    100432: Trees_03_003 1
+    100434: Trees_04
+    100436: Trees_04 1
+    100438: TreesContainer
+    100440: TreesContainer 1
+    100442: Zone
+    400000: //RootNode
+    400002: ApexTouch
+    400004: ApexTouch 1
+    400006: ApexTouch 2
+    400008: ApexTouch 3
+    400010: ApexTouch 4
+    400012: ApexTouch 5
+    400014: ApexTouch 6
+    400016: ApexTouchManager
+    400018: AR_A_01_Start_Beam
+    400020: AR_A_01_Start_Beam 1
+    400022: AR_A_01_Start_Beam_002
+    400024: AR_A_01_Start_Beam_002 1
+    400026: Bush_01
+    400028: Camera
+    400030: Camera (1)
+    400032: Camera (11)
+    400034: Camera (12)
+    400036: Camera (13)
+    400038: Camera (14)
+    400040: Camera (15)
+    400042: Camera (16)
+    400044: Camera (17)
+    400046: Camera (18)
+    400048: Camera (19)
+    400050: Camera (2)
+    400052: Camera (20)
+    400054: Camera (21)
+    400056: Camera (3)
+    400058: Camera (4)
+    400060: Camera (5)
+    400062: Camera (6)
+    400064: Camera (7)
+    400066: Camera (8)
+    400068: Checkpoint_00
+    400070: Checkpoint_01
+    400072: Checkpoint_02
+    400074: Checkpoint_03
+    400076: Checkpoint_04
+    400078: Checkpoint_05
+    400080: Checkpoint_06
+    400082: Checkpoint_07
+    400084: Checkpoint_08
+    400086: Checkpoint_09
+    400088: Checkpoint_10
+    400090: Checkpoint_11
+    400092: Checkpoint_12
+    400094: Checkpoint_13
+    400096: Checkpoint_14
+    400098: Checkpoint_15
+    400100: Checkpoint_16
+    400102: Checkpoint_17
+    400104: Checkpoint_18
+    400106: Checkpoint_19
+    400108: Checkpoint_20
+    400110: Checkpoint_21
+    400112: Checkpoint_22
+    400114: Checkpoint_23
+    400116: Checkpoint_24
+    400118: Checkpoint_25
+    400120: Checkpoint_26
+    400122: Checkpoint_27
+    400124: Checkpoint_28
+    400126: Checkpoint_29
+    400128: Checkpoint_30
+    400130: Checkpoint_31
+    400132: Checkpoint_32
+    400134: Checkpoint_33
+    400136: Checkpoint_34
+    400138: Checkpoint_35
+    400140: Checkpoint_36
+    400142: Checkpoint_37
+    400144: Checkpoint_38
+    400146: Checkpoint_39
+    400148: Checkpoint_40
+    400150: Checkpoints
+    400152: Collider
+    400154: Collider (1)
+    400156: Collider_Road
+    400158: Collider_Wall
+    400160: Colliders
+    400162: Forest
+    400164: Forest 1
+    400166: Forest_00
+    400168: Forest_00 1
+    400170: Forest_01
+    400172: Forest_01 1
+    400174: Forest_02
+    400176: Forest_02 1
+    400178: Forest_02_001
+    400180: Forest_02_001 1
+    400182: Forest_03
+    400184: Forest_03 1
+    400186: Forest_03_001
+    400188: Forest_03_001 1
+    400190: Forest_03_002
+    400192: Forest_03_002 1
+    400194: Forest_03_003
+    400196: Forest_03_003 1
+    400198: Forest_03_004
+    400200: Forest_03_004 1
+    400202: Forest_04
+    400204: Forest_04 1
+    400206: ForestContainer
+    400208: ForestContainer 1
+    400210: Mountain_01
+    400212: Piece_00_001
+    400214: Piece_00_001 1
+    400216: Piece_01_001
+    400218: Piece_01_001 1
+    400220: Piece_02_001
+    400222: Piece_02_001 1
+    400224: Piece_02_002
+    400226: Piece_02_002 1
+    400228: Piece_03
+    400230: Piece_03 1
+    400232: Piece_03_001
+    400234: Piece_03_001 1
+    400236: Piece_03_002
+    400238: Piece_03_002 1
+    400240: Piece_03_003
+    400242: Piece_03_003 1
+    400244: Piece_04_001
+    400246: Piece_04_001 1
+    400248: Piece_04_002
+    400250: Piece_04_002 1
+    400252: Piece_05_001
+    400254: Piece_05_001 1
+    400256: Piece_05_002
+    400258: Piece_05_002 1
+    400260: Piece_05_003
+    400262: Piece_05_003 1
+    400264: Piece_05_004
+    400266: Piece_05_004 1
+    400268: Piece_06_001
+    400270: Piece_06_001 1
+    400272: PieceContainer
+    400274: PieceContainer 1
+    400276: Rail_001
+    400278: Rail_001 1
+    400280: Rail_002
+    400282: Rail_002 1
+    400284: Rail_Light_001
+    400286: Rail_Light_001 1
+    400288: Rail_Light_002
+    400290: Rail_Light_002 1
+    400292: Rail_Light_003
+    400294: Rail_Light_003 1
+    400296: RailsContainer
+    400298: RailsContainer 1
+    400300: RestartZones
+    400302: Road_Barrier_000
+    400304: Road_Barrier_000 1
+    400306: Road_Barrier_001
+    400308: Road_Barrier_001 1
+    400310: RoadSign_30
+    400312: RoadSign_30 1
+    400314: RoadSign_30_End
+    400316: RoadSign_30_End 1
+    400318: RoadSign_30_Start
+    400320: RoadSign_30_Start 1
+    400322: RoadSign_50
+    400324: RoadSign_50 1
+    400326: RoadSign_Curve_Warning
+    400328: RoadSign_Curve_Warning 1
+    400330: RoadSign_Engine_Brake
+    400332: RoadSign_Engine_Brake 1
+    400334: RoadSign_RIght_Turn
+    400336: RoadSign_RIght_Turn 1
+    400338: RoadSign_RIght_Turn_001
+    400340: RoadSign_RIght_Turn_001 1
+    400342: RoadSign_RIght_Turn_002
+    400344: RoadSign_RIght_Turn_002 1
+    400346: RoadSign_RIght_Turn_003
+    400348: RoadSign_RIght_Turn_003 1
+    400350: RoadSign_RIght_Turn_004
+    400352: RoadSign_RIght_Turn_004 1
+    400354: RoadSign_RIght_Turn_005
+    400356: RoadSign_RIght_Turn_005 1
+    400358: RoadSign_Warning
+    400360: RoadSign_Warning 1
+    400362: RoadSignsContainer
+    400364: RoadSignsContainer 1
+    400366: Skydome
+    400368: Skydome 1
+    400370: SUN_LIGHTMAP
+    400372: TougeFinal
+    400374: TougeFinalParaboloid
+    400376: TrackCameras
+    400378: Trees
+    400380: Trees 1
+    400382: Trees_00
+    400384: Trees_00 1
+    400386: Trees_001
+    400388: Trees_001 1
+    400390: Trees_002
+    400392: Trees_002 1
+    400394: Trees_003
+    400396: Trees_003 1
+    400398: Trees_004
+    400400: Trees_004 1
+    400402: Trees_01
+    400404: Trees_01 1
+    400406: Trees_01_001
+    400408: Trees_01_001 1
+    400410: Trees_02
+    400412: Trees_02 1
+    400414: Trees_02_001
+    400416: Trees_02_001 1
+    400418: Trees_03
+    400420: Trees_03 1
+    400422: Trees_03_001
+    400424: Trees_03_001 1
+    400426: Trees_03_002
+    400428: Trees_03_002 1
+    400430: Trees_03_003
+    400432: Trees_03_003 1
+    400434: Trees_04
+    400436: Trees_04 1
+    400438: TreesContainer
+    400440: TreesContainer 1
+    400442: Zone
+    2300000: AR_A_01_Start_Beam
+    2300002: AR_A_01_Start_Beam 1
+    2300004: AR_A_01_Start_Beam_002
+    2300006: AR_A_01_Start_Beam_002 1
+    2300008: Bush_01
+    2300010: Collider_Road
+    2300012: Collider_Wall
+    2300014: Forest
+    2300016: Forest 1
+    2300018: Forest_00
+    2300020: Forest_00 1
+    2300022: Forest_01
+    2300024: Forest_01 1
+    2300026: Forest_02
+    2300028: Forest_02 1
+    2300030: Forest_02_001
+    2300032: Forest_02_001 1
+    2300034: Forest_03
+    2300036: Forest_03 1
+    2300038: Forest_03_001
+    2300040: Forest_03_001 1
+    2300042: Forest_03_002
+    2300044: Forest_03_002 1
+    2300046: Forest_03_003
+    2300048: Forest_03_003 1
+    2300050: Forest_03_004
+    2300052: Forest_03_004 1
+    2300054: Forest_04
+    2300056: Forest_04 1
+    2300058: Mountain_01
+    2300060: Piece_00_001
+    2300062: Piece_00_001 1
+    2300064: Piece_01_001
+    2300066: Piece_01_001 1
+    2300068: Piece_02_001
+    2300070: Piece_02_001 1
+    2300072: Piece_02_002
+    2300074: Piece_02_002 1
+    2300076: Piece_03
+    2300078: Piece_03 1
+    2300080: Piece_03_001
+    2300082: Piece_03_001 1
+    2300084: Piece_03_002
+    2300086: Piece_03_002 1
+    2300088: Piece_03_003
+    2300090: Piece_03_003 1
+    2300092: Piece_04_001
+    2300094: Piece_04_001 1
+    2300096: Piece_04_002
+    2300098: Piece_04_002 1
+    2300100: Piece_05_001
+    2300102: Piece_05_001 1
+    2300104: Piece_05_002
+    2300106: Piece_05_002 1
+    2300108: Piece_05_003
+    2300110: Piece_05_003 1
+    2300112: Piece_05_004
+    2300114: Piece_05_004 1
+    2300116: Piece_06_001
+    2300118: Piece_06_001 1
+    2300120: Rail_001
+    2300122: Rail_001 1
+    2300124: Rail_002
+    2300126: Rail_002 1
+    2300128: Rail_Light_001
+    2300130: Rail_Light_001 1
+    2300132: Rail_Light_002
+    2300134: Rail_Light_002 1
+    2300136: Rail_Light_003
+    2300138: Rail_Light_003 1
+    2300140: Road_Barrier_000
+    2300142: Road_Barrier_000 1
+    2300144: Road_Barrier_001
+    2300146: Road_Barrier_001 1
+    2300148: RoadSign_30
+    2300150: RoadSign_30 1
+    2300152: RoadSign_30_End
+    2300154: RoadSign_30_End 1
+    2300156: RoadSign_30_Start
+    2300158: RoadSign_30_Start 1
+    2300160: RoadSign_50
+    2300162: RoadSign_50 1
+    2300164: RoadSign_Curve_Warning
+    2300166: RoadSign_Curve_Warning 1
+    2300168: RoadSign_Engine_Brake
+    2300170: RoadSign_Engine_Brake 1
+    2300172: RoadSign_RIght_Turn
+    2300174: RoadSign_RIght_Turn 1
+    2300176: RoadSign_RIght_Turn_001
+    2300178: RoadSign_RIght_Turn_001 1
+    2300180: RoadSign_RIght_Turn_002
+    2300182: RoadSign_RIght_Turn_002 1
+    2300184: RoadSign_RIght_Turn_003
+    2300186: RoadSign_RIght_Turn_003 1
+    2300188: RoadSign_RIght_Turn_004
+    2300190: RoadSign_RIght_Turn_004 1
+    2300192: RoadSign_RIght_Turn_005
+    2300194: RoadSign_RIght_Turn_005 1
+    2300196: RoadSign_Warning
+    2300198: RoadSign_Warning 1
+    2300200: Skydome
+    2300202: Skydome 1
+    2300204: Trees
+    2300206: Trees 1
+    2300208: Trees_00
+    2300210: Trees_00 1
+    2300212: Trees_001
+    2300214: Trees_001 1
+    2300216: Trees_002
+    2300218: Trees_002 1
+    2300220: Trees_003
+    2300222: Trees_003 1
+    2300224: Trees_004
+    2300226: Trees_004 1
+    2300228: Trees_01
+    2300230: Trees_01 1
+    2300232: Trees_01_001
+    2300234: Trees_01_001 1
+    2300236: Trees_02
+    2300238: Trees_02 1
+    2300240: Trees_02_001
+    2300242: Trees_02_001 1
+    2300244: Trees_03
+    2300246: Trees_03 1
+    2300248: Trees_03_001
+    2300250: Trees_03_001 1
+    2300252: Trees_03_002
+    2300254: Trees_03_002 1
+    2300256: Trees_03_003
+    2300258: Trees_03_003 1
+    2300260: Trees_04
+    2300262: Trees_04 1
+    3300000: AR_A_01_Start_Beam
+    3300002: AR_A_01_Start_Beam 1
+    3300004: AR_A_01_Start_Beam_002
+    3300006: AR_A_01_Start_Beam_002 1
+    3300008: Bush_01
+    3300010: Collider_Road
+    3300012: Collider_Wall
+    3300014: Forest
+    3300016: Forest 1
+    3300018: Forest_00
+    3300020: Forest_00 1
+    3300022: Forest_01
+    3300024: Forest_01 1
+    3300026: Forest_02
+    3300028: Forest_02 1
+    3300030: Forest_02_001
+    3300032: Forest_02_001 1
+    3300034: Forest_03
+    3300036: Forest_03 1
+    3300038: Forest_03_001
+    3300040: Forest_03_001 1
+    3300042: Forest_03_002
+    3300044: Forest_03_002 1
+    3300046: Forest_03_003
+    3300048: Forest_03_003 1
+    3300050: Forest_03_004
+    3300052: Forest_03_004 1
+    3300054: Forest_04
+    3300056: Forest_04 1
+    3300058: Mountain_01
+    3300060: Piece_00_001
+    3300062: Piece_00_001 1
+    3300064: Piece_01_001
+    3300066: Piece_01_001 1
+    3300068: Piece_02_001
+    3300070: Piece_02_001 1
+    3300072: Piece_02_002
+    3300074: Piece_02_002 1
+    3300076: Piece_03
+    3300078: Piece_03 1
+    3300080: Piece_03_001
+    3300082: Piece_03_001 1
+    3300084: Piece_03_002
+    3300086: Piece_03_002 1
+    3300088: Piece_03_003
+    3300090: Piece_03_003 1
+    3300092: Piece_04_001
+    3300094: Piece_04_001 1
+    3300096: Piece_04_002
+    3300098: Piece_04_002 1
+    3300100: Piece_05_001
+    3300102: Piece_05_001 1
+    3300104: Piece_05_002
+    3300106: Piece_05_002 1
+    3300108: Piece_05_003
+    3300110: Piece_05_003 1
+    3300112: Piece_05_004
+    3300114: Piece_05_004 1
+    3300116: Piece_06_001
+    3300118: Piece_06_001 1
+    3300120: Rail_001
+    3300122: Rail_001 1
+    3300124: Rail_002
+    3300126: Rail_002 1
+    3300128: Rail_Light_001
+    3300130: Rail_Light_001 1
+    3300132: Rail_Light_002
+    3300134: Rail_Light_002 1
+    3300136: Rail_Light_003
+    3300138: Rail_Light_003 1
+    3300140: Road_Barrier_000
+    3300142: Road_Barrier_000 1
+    3300144: Road_Barrier_001
+    3300146: Road_Barrier_001 1
+    3300148: RoadSign_30
+    3300150: RoadSign_30 1
+    3300152: RoadSign_30_End
+    3300154: RoadSign_30_End 1
+    3300156: RoadSign_30_Start
+    3300158: RoadSign_30_Start 1
+    3300160: RoadSign_50
+    3300162: RoadSign_50 1
+    3300164: RoadSign_Curve_Warning
+    3300166: RoadSign_Curve_Warning 1
+    3300168: RoadSign_Engine_Brake
+    3300170: RoadSign_Engine_Brake 1
+    3300172: RoadSign_RIght_Turn
+    3300174: RoadSign_RIght_Turn 1
+    3300176: RoadSign_RIght_Turn_001
+    3300178: RoadSign_RIght_Turn_001 1
+    3300180: RoadSign_RIght_Turn_002
+    3300182: RoadSign_RIght_Turn_002 1
+    3300184: RoadSign_RIght_Turn_003
+    3300186: RoadSign_RIght_Turn_003 1
+    3300188: RoadSign_RIght_Turn_004
+    3300190: RoadSign_RIght_Turn_004 1
+    3300192: RoadSign_RIght_Turn_005
+    3300194: RoadSign_RIght_Turn_005 1
+    3300196: RoadSign_Warning
+    3300198: RoadSign_Warning 1
+    3300200: Skydome
+    3300202: Skydome 1
+    3300204: Trees
+    3300206: Trees 1
+    3300208: Trees_00
+    3300210: Trees_00 1
+    3300212: Trees_001
+    3300214: Trees_001 1
+    3300216: Trees_002
+    3300218: Trees_002 1
+    3300220: Trees_003
+    3300222: Trees_003 1
+    3300224: Trees_004
+    3300226: Trees_004 1
+    3300228: Trees_01
+    3300230: Trees_01 1
+    3300232: Trees_01_001
+    3300234: Trees_01_001 1
+    3300236: Trees_02
+    3300238: Trees_02 1
+    3300240: Trees_02_001
+    3300242: Trees_02_001 1
+    3300244: Trees_03
+    3300246: Trees_03 1
+    3300248: Trees_03_001
+    3300250: Trees_03_001 1
+    3300252: Trees_03_002
+    3300254: Trees_03_002 1
+    3300256: Trees_03_003
+    3300258: Trees_03_003 1
+    3300260: Trees_04
+    3300262: Trees_04 1
+    4300000: Collider_Wall
+    4300002: Collider_Road
+    4300004: Piece_03_002
+    4300006: Piece_03_001
+    4300008: Piece_05_003
+    4300010: Piece_01_001
+    4300012: Piece_02_002
+    4300014: Piece_03
+    4300016: Piece_05_004
+    4300018: Piece_05_002
+    4300020: Piece_03_003
+    4300022: Piece_04_001
+    4300024: Piece_02_001
+    4300026: Piece_00_001
+    4300028: Piece_06_001
+    4300030: Piece_05_001
+    4300032: Piece_04_002
+    4300034: Forest_02
+    4300036: Forest_03
+    4300038: Forest_03_002
+    4300040: Forest_02_001
+    4300042: Forest_03_004
+    4300044: Forest
+    4300046: Forest_04
+    4300048: Forest_00
+    4300050: Forest_03_003
+    4300052: Forest_03_001
+    4300054: Forest_01
+    4300056: Trees_004
+    4300058: Trees_03_001
+    4300060: Trees
+    4300062: Trees_002
+    4300064: Trees_001
+    4300066: Trees_04
+    4300068: Trees_02
+    4300070: Trees_003
+    4300072: Trees_03
+    4300074: Trees_02_001
+    4300076: Trees_01
+    4300078: Trees_00
+    4300080: Trees_03_002
+    4300082: Trees_03_003
+    4300084: Trees_01_001
+    4300086: AR_A_01_Start_Beam_002
+    4300088: Mountain_01
+    4300090: AR_A_01_Start_Beam
+    4300092: RoadSign_30_Start
+    4300094: RoadSign_Curve_Warning
+    4300096: Road_Barrier_000
+    4300098: RoadSign_RIght_Turn
+    4300100: RoadSign_RIght_Turn_004
+    4300102: RoadSign_RIght_Turn_002
+    4300104: RoadSign_Engine_Brake
+    4300106: RoadSign_30
+    4300108: RoadSign_30_End
+    4300110: RoadSign_50
+    4300112: RoadSign_Warning
+    4300114: RoadSign_RIght_Turn_001
+    4300116: RoadSign_RIght_Turn_005
+    4300118: RoadSign_RIght_Turn_003
+    4300120: Road_Barrier_001
+    4300122: Rail_002
+    4300124: Rail_Light_002
+    4300126: Rail_Light_001
+    4300128: Rail_Light_003
+    4300130: Rail_001
+    4300132: Bush_01
+    4300134: Rail_Light_003
+    4300136: Rail_Light_001
+    4300138: Rail_002
+    4300140: Rail_Light_002
+    4300142: Rail_001
+    4300144: Forest
+    4300146: Forest_03_001
+    4300148: Forest_03_003
+    4300150: Forest_01
+    4300152: Forest_02
+    4300154: Forest_04
+    4300156: Forest_03
+    4300158: Forest_00
+    4300160: Forest_03_002
+    4300162: Forest_02_001
+    4300164: Forest_03_004
+    4300166: Trees_002
+    4300168: Trees_003
+    4300170: Trees_01_001
+    4300172: Trees_00
+    4300174: Trees_001
+    4300176: Trees_02
+    4300178: Trees_03
+    4300180: Trees_04
+    4300182: Trees
+    4300184: Trees_02_001
+    4300186: Trees_03_003
+    4300188: Trees_004
+    4300190: Trees_03_001
+    4300192: Trees_03_002
+    4300194: Trees_01
+    4300196: Piece_03_001
+    4300198: Piece_01_001
+    4300200: Piece_00_001
+    4300202: Piece_04_001
+    4300204: Piece_03
+    4300206: Piece_05_001
+    4300208: Piece_05_004
+    4300210: Piece_03_003
+    4300212: Piece_05_002
+    4300214: Piece_04_002
+    4300216: Piece_02_002
+    4300218: Piece_05_003
+    4300220: Piece_06_001
+    4300222: Piece_03_002
+    4300224: Piece_02_001
+    4300226: RoadSign_RIght_Turn_003
+    4300228: RoadSign_50
+    4300230: RoadSign_Warning
+    4300232: RoadSign_RIght_Turn_001
+    4300234: RoadSign_RIght_Turn_002
+    4300236: Road_Barrier_000
+    4300238: RoadSign_30_End
+    4300240: RoadSign_Curve_Warning
+    4300242: RoadSign_30_Start
+    4300244: RoadSign_RIght_Turn_004
+    4300246: Road_Barrier_001
+    4300248: RoadSign_Engine_Brake
+    4300250: RoadSign_RIght_Turn_005
+    4300252: RoadSign_30
+    4300254: AR_A_01_Start_Beam_002
+    4300256: AR_A_01_Start_Beam
+    4300258: RoadSign_RIght_Turn
+    4300260: Skydome
+    4300262: Skydome
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

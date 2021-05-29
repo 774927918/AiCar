@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 9f49ab8f038a7954aa79b507dcd43054
+timeCreated: 1514980288
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ApexTouch
+    100004: ApexTouch 1
+    100006: ApexTouch 2
+    100008: ApexTouch 3
+    100010: ApexTouch 4
+    100012: ApexTouch 5
+    100014: ApexTouch 6
+    100016: ApexTouchManager
+    100018: AR_A_01_Panel_Advert_01
+    100020: AR_A_01_Panel_Advert_01 1
+    100022: AR_A_03_Building_Type_01_01
+    100024: AR_A_03_Building_Type_01_01 1
+    100026: BezierCurve
+    100028: BezierCurve 1
+    100030: Camera
+    100032: Camera 1
+    100034: Camera 10
+    100036: Camera 11
+    100038: Camera 12
+    100040: Camera 13
+    100042: Camera 14
+    100044: Camera 2
+    100046: Camera 3
+    100048: Camera 4
+    100050: Camera 5
+    100052: Camera 6
+    100054: Camera 7
+    100056: Camera 8
+    100058: Camera 9
+    100060: Checkpoint_00
+    100062: Checkpoint_01
+    100064: Checkpoint_02
+    100066: Checkpoint_03
+    100068: Checkpoint_04
+    100070: Checkpoint_05
+    100072: Checkpoint_06
+    100074: Checkpoint_07
+    100076: Checkpoint_08
+    100078: Checkpoint_09
+    100080: Checkpoint_10
+    100082: Checkpoint_11
+    100084: Checkpoint_12
+    100086: Checkpoint_13
+    100088: Checkpoint_14
+    100090: Checkpoint_15
+    100092: Checkpoint_16
+    100094: Checkpoint_17
+    100096: Checkpoint_18
+    100098: Checkpoint_19
+    100100: Checkpoint_20
+    100102: Checkpoint_21
+    100104: Checkpoint_22
+    100106: Checkpoint_23
+    100108: Checkpoint_24
+    100110: Checkpoints
+    100112: Collider_Racetrack
+    100114: Collider_Racetrack 1
+    100116: Collider_Wall_
+    100118: Collider_Wall_ 1
+    100120: Collider_Wall_Exterior
+    100122: Collider_Wall_Exterior 1
+    100124: CurveWall
+    100126: CurveWall 1
+    100128: Forest
+    100130: Forest 1
+    100132: ForestPath 1
+    100134: ForestPathParaboloid
+    100136: Grandstand_Type_02_005
+    100138: Grandstand_Type_02_005 1
+    100140: Section
+    100142: Section 1
+    100144: Sections
+    100146: Skydome
+    100148: Skydome 1
+    100150: StartGrid
+    100152: StartGrid 1
+    100154: SUN_LIGHTMAP
+    100156: TrackCameras
+    100158: Trees
+    100160: Trees 1
+    100162: Tunnel_01
+    100164: Tunnel_01 1
+    400000: //RootNode
+    400002: ApexTouch
+    400004: ApexTouch 1
+    400006: ApexTouch 2
+    400008: ApexTouch 3
+    400010: ApexTouch 4
+    400012: ApexTouch 5
+    400014: ApexTouch 6
+    400016: ApexTouchManager
+    400018: AR_A_01_Panel_Advert_01
+    400020: AR_A_01_Panel_Advert_01 1
+    400022: AR_A_03_Building_Type_01_01
+    400024: AR_A_03_Building_Type_01_01 1
+    400026: BezierCurve
+    400028: BezierCurve 1
+    400030: Camera
+    400032: Camera 1
+    400034: Camera 10
+    400036: Camera 11
+    400038: Camera 12
+    400040: Camera 13
+    400042: Camera 14
+    400044: Camera 2
+    400046: Camera 3
+    400048: Camera 4
+    400050: Camera 5
+    400052: Camera 6
+    400054: Camera 7
+    400056: Camera 8
+    400058: Camera 9
+    400060: Checkpoint_00
+    400062: Checkpoint_01
+    400064: Checkpoint_02
+    400066: Checkpoint_03
+    400068: Checkpoint_04
+    400070: Checkpoint_05
+    400072: Checkpoint_06
+    400074: Checkpoint_07
+    400076: Checkpoint_08
+    400078: Checkpoint_09
+    400080: Checkpoint_10
+    400082: Checkpoint_11
+    400084: Checkpoint_12
+    400086: Checkpoint_13
+    400088: Checkpoint_14
+    400090: Checkpoint_15
+    400092: Checkpoint_16
+    400094: Checkpoint_17
+    400096: Checkpoint_18
+    400098: Checkpoint_19
+    400100: Checkpoint_20
+    400102: Checkpoint_21
+    400104: Checkpoint_22
+    400106: Checkpoint_23
+    400108: Checkpoint_24
+    400110: Checkpoints
+    400112: Collider_Racetrack
+    400114: Collider_Racetrack 1
+    400116: Collider_Wall_
+    400118: Collider_Wall_ 1
+    400120: Collider_Wall_Exterior
+    400122: Collider_Wall_Exterior 1
+    400124: CurveWall
+    400126: CurveWall 1
+    400128: Forest
+    400130: Forest 1
+    400132: ForestPath 1
+    400134: ForestPathParaboloid
+    400136: Grandstand_Type_02_005
+    400138: Grandstand_Type_02_005 1
+    400140: Section
+    400142: Section 1
+    400144: Sections
+    400146: Skydome
+    400148: Skydome 1
+    400150: StartGrid
+    400152: StartGrid 1
+    400154: SUN_LIGHTMAP
+    400156: TrackCameras
+    400158: Trees
+    400160: Trees 1
+    400162: Tunnel_01
+    400164: Tunnel_01 1
+    2300000: AR_A_01_Panel_Advert_01
+    2300002: AR_A_01_Panel_Advert_01 1
+    2300004: AR_A_03_Building_Type_01_01
+    2300006: AR_A_03_Building_Type_01_01 1
+    2300008: Collider_Racetrack
+    2300010: Collider_Racetrack 1
+    2300012: Collider_Wall_
+    2300014: Collider_Wall_ 1
+    2300016: Collider_Wall_Exterior
+    2300018: Collider_Wall_Exterior 1
+    2300020: Forest
+    2300022: Forest 1
+    2300024: Grandstand_Type_02_005
+    2300026: Grandstand_Type_02_005 1
+    2300028: Skydome
+    2300030: Skydome 1
+    2300032: StartGrid
+    2300034: StartGrid 1
+    2300036: Trees
+    2300038: Trees 1
+    2300040: Tunnel_01
+    2300042: Tunnel_01 1
+    3300000: AR_A_01_Panel_Advert_01
+    3300002: AR_A_01_Panel_Advert_01 1
+    3300004: AR_A_03_Building_Type_01_01
+    3300006: AR_A_03_Building_Type_01_01 1
+    3300008: Collider_Racetrack
+    3300010: Collider_Racetrack 1
+    3300012: Collider_Wall_
+    3300014: Collider_Wall_ 1
+    3300016: Collider_Wall_Exterior
+    3300018: Collider_Wall_Exterior 1
+    3300020: Forest
+    3300022: Forest 1
+    3300024: Grandstand_Type_02_005
+    3300026: Grandstand_Type_02_005 1
+    3300028: Skydome
+    3300030: Skydome 1
+    3300032: StartGrid
+    3300034: StartGrid 1
+    3300036: Trees
+    3300038: Trees 1
+    3300040: Tunnel_01
+    3300042: Tunnel_01 1
+    4300000: Forest
+    4300002: Collider_Racetrack
+    4300004: Collider_Wall_Exterior
+    4300006: Collider_Wall_
+    4300008: Tunnel_01
+    4300010: Trees
+    4300012: Grandstand_Type_02_005
+    4300014: AR_A_03_Building_Type_01_01
+    4300016: StartGrid
+    4300018: AR_A_01_Panel_Advert_01
+    4300020: Skydome
+    4300022: Grandstand_Type_02_005
+    4300024: AR_A_03_Building_Type_01_01
+    4300026: Forest
+    4300028: Trees
+    4300030: Collider_Racetrack
+    4300032: AR_A_01_Panel_Advert_01
+    4300034: Collider_Wall_
+    4300036: Collider_Wall_Exterior
+    4300038: Skydome
+    4300040: Tunnel_01
+    4300042: StartGrid
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
