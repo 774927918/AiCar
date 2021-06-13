@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDraw: 1
-  engine: 1600
+  engine: 1000
   maxAngle: 40
   wcArr:
   - {fileID: 2016772005}

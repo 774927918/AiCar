@@ -21,17 +21,46 @@ public class CarCtrl : MonoBehaviour
     public GameObject tuowei2;
     public Text txt;
     public float curSpeed;//…‰œﬂæ‡¿Î
+
+    //public float fit;
+    //public float moveDis;
+    //public int jianceNum;
+    //public List<float> jianceDis = new List<float>();
+    //public List<Transform> jianceList = new List<Transform>();
+    //public int nextIndex;
     void Start()
     {
         rb.centerOfMass = center;
-        
+
+        //Transform[] trArr = FindObjectsOfType<Transform>();
+        //for (int i = 0; i < jianceNum; i++)
+        //{
+        //    for (int j = 0; j < trArr.Length; j++)
+        //    {
+        //        if (trArr[j].name == i.ToString() && trArr[j].gameObject.layer == 10)
+        //        {
+        //            jianceList.Add(trArr[j]);
+        //            if (i == 0)
+        //            {
+        //                jianceDis.Add(0);
+        //            }
+        //            else
+        //            {
+        //                jianceDis.Add(Vector3.Distance(jianceList[i - 1].position, jianceList[i].position));
+        //            }
+        //            break;
+        //        }
+        //    }
+        //}
+        //jianceDis[0] = Vector3.Distance(jianceList[0].position, jianceList[jianceNum - 1].position);
     }
 
     // Update is called once per frame
     void Update()
     {
         curSpeed = rb.velocity.magnitude;
-        txt.text = "   •π•‘©`•…:" + Mathf.RoundToInt(curSpeed * 3.6f / 0.6f);
+        //float f = moveDis + jianceDis[nextIndex] - Vector3.Distance(transform.position, jianceList[nextIndex].position);
+        txt.text = "   •π•‘©`•…:" + Mathf.RoundToInt(curSpeed * 3.6f / 0.6f) ;
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
@@ -67,7 +96,7 @@ public class CarCtrl : MonoBehaviour
             wcArr[3].brakeTorque = 0;
             weidengMat.color = new Color(30f / 255f, 0, 0);
         }
-
+       
     }
     void CheckHuaXing()
     {

@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+
 public class GA
 {
     private int populationSize;
     private double cross_ratio = 0.8;
     private double muta_ratio = 0.4;
     private double dertFit;
-
+   // Car car;
+    void Update()
+    {
+      
+    }
     public GA(int populationSize)
     {
         this.populationSize = populationSize;
@@ -47,6 +52,7 @@ public class GA
         }
        // UnityEngine.Debug.Log("最高适应性:" + parents[parents.Count - 1].fitness + "   平均适应性:" + totalFit / parents.Count);
         UnityEngine.Debug.Log("最高適応度:" + parents[parents.Count - 1].fitness + "   平均適応度:" + totalFit / parents.Count);
+        //car.ShowTimer();
         #endregion
 
         #region 负数适应性修改

@@ -42,7 +42,8 @@ public class Car : Agent
 
     public int quanshu;
     private int tuoweitime;
-
+    private float speedtime;
+   
     void Start()
     {
 
@@ -108,9 +109,12 @@ public class Car : Agent
     // Update is called once per frame
     void Update()
     {
+       
+        if (curSpeed * 3.6f / 0.6f >= 140)
+        {
+            curSpeed = 140 / 3.6f * 0.6f;
+        }
         moveTime += Time.deltaTime;
-
-        //CheckHuaXing();
         tuoweitime++;
         if (tuoweitime >= 70)
         {
@@ -124,7 +128,9 @@ public class Car : Agent
         {
             item.gameObject.SetActive(isDraw);
         }
+        Lowspeed();
     }
+
     void CheckHuaXing()
     {
         float angle = Vector3.Angle(rb.velocity, transform.forward);
@@ -298,10 +304,27 @@ public class Car : Agent
         Turn((float)outputs[1]);
         Brake((float)outputs[2]);
     }
-
+    public void Lowspeed()
+    {
+        speedtime = 0;
+        //Debug.Log(curSpeed / 10);
+        if (curSpeed * 3.6f / 0.6f < 10 )
+        {
+            speedtime += Time.deltaTime;
+            if (speedtime > 10)
+            {
+                gameObject.SetActive(false);
+            }
+        }
+       
+    }
     public override void SetFitness()
     {
         float f = moveDis + jianceDis[nextIndex] - Vector3.Distance(transform.position, jianceList[nextIndex].position);
+        // Debug.Log("Ç°"+f);
+        //Debug.Log(curSpeed);
+        f += curSpeed * 2;
+        // Debug.Log("ºó" + f);
         //f *= 1000;
         if (f > fit)
         {
@@ -315,12 +338,13 @@ public class Car : Agent
             {
                 gameObject.SetActive(false);
             }
-        }
+        }    
         ge.fitness = fit;
     }
 
     public override void ResetAgent()
     {
+      
         quanshu = 0;
         moveTime = 0;
         t = 0;

@@ -1190,6 +1190,9 @@ MonoBehaviour:
   loadWeights: 1
   justRunTest: 0
   bestTextAsset: {fileID: 0}
+  IsBeifen: 1
+  t_t: 0
+  junnkaikaisu: 0
   jishiTxt: {fileID: 1616800774}
   isJiShi: 0
   time: 10
@@ -1775,6 +1778,7 @@ MonoBehaviour:
   sf: {fileID: 963194229}
   lc: {fileID: 963194231}
   txt: {fileID: 469981948}
+  Ev: {fileID: 345665503}
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0

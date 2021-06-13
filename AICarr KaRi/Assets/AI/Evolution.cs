@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Evolution : MonoBehaviour
@@ -22,8 +23,15 @@ public class Evolution : MonoBehaviour
     public bool loadWeights;
     public bool justRunTest;
     public TextAsset bestTextAsset;
+    private  int index;
+
+    public bool IsBeifen;
+    [HideInInspector]
+    public float t_t;
+    public float junnkaikaisu = 0;
     void Start()
     {
+        index = SceneManager.GetActiveScene().buildIndex;
         CheckName();
         ResetEnvironmental();
         Init();
@@ -31,8 +39,13 @@ public class Evolution : MonoBehaviour
 
     protected void Update()
     {
+        t_t = Time.time;//游戏时间获取
         Run();
     }
+    //public void ShowTimer()
+    //{
+    //    Debug.Log("運行時間" + (t_t / 60).ToString("0.00") + "分"+"進化回数" + junnkaikaisu);
+    //}
 
     void CheckName()
     {
@@ -53,9 +66,18 @@ public class Evolution : MonoBehaviour
         {
             str += best[i] + (i == best.Length - 1 ? "" : ",");
         }
-        StreamWriter sw = new StreamWriter(Path.Combine(Application.streamingAssetsPath, populationName + ".txt"));
+        StreamWriter sw = new StreamWriter(Path.Combine(Application.streamingAssetsPath, populationName +index+ ".txt"));
         sw.WriteLine(str + ":" + score);
         sw.Close();
+
+        if (IsBeifen)
+        {
+            StreamWriter sb = new StreamWriter(Path.Combine(Application.streamingAssetsPath, "备份" + index + ".txt"));
+            sb.WriteLine(str + ":" + score);
+            sb.Close();
+
+        }
+
         PlayerPrefs.SetString(populationName, str);
         PlayerPrefs.Save();
     }
@@ -68,9 +90,9 @@ public class Evolution : MonoBehaviour
             NeuralNetwork nn = new NeuralNetwork(layerShape);
             if (loadWeights)
             {
-                if (File.Exists(Path.Combine(Application.streamingAssetsPath, populationName + ".txt")))
+                if (File.Exists(Path.Combine(Application.streamingAssetsPath, populationName + index+".txt")))
                 {
-                    StreamReader sr = new StreamReader(Path.Combine(Application.streamingAssetsPath, populationName + ".txt"));
+                    StreamReader sr = new StreamReader(Path.Combine(Application.streamingAssetsPath, populationName + index + ".txt"));
                     string temp = sr.ReadLine().Split(':')[0];
                     sr.Close();
                     string[] strArr = temp.Split(',');
@@ -120,6 +142,7 @@ public class Evolution : MonoBehaviour
             {
                 FinishGeneration();
                 ResetEnvironmental();
+                junnkaikaisu++;
             }
             if (isJiShi)
             {
@@ -134,6 +157,7 @@ public class Evolution : MonoBehaviour
             }
             else
             {
+               
                 jishiTxt.text = "";
             }
         }
@@ -177,6 +201,7 @@ public class Evolution : MonoBehaviour
 
     public virtual void ResetEnvironmental()
     {
+       // ShowTimer();
         startTime = System.DateTime.Now;
         foreach (var item in GameObject.FindGameObjectsWithTag("Trail"))
         {
